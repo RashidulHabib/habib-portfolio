@@ -10,7 +10,7 @@ body{
     font-size: 47px;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -55,4 +55,7 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.last-padding{
+    padding-right: 5%;
 }
