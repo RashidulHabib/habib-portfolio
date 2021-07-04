@@ -12,10 +12,12 @@ body{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .first-half{
     width: 50%;
     padding-left: 5%;
+    text-align: justify;
 }
 .first-half img{
     width: 80%;
@@ -30,4 +32,27 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.second-half{
+    width: 50%;
+    padding-right: 10%;
+    text-align: justify;
+
+}
+.second-half img{
+    width: 80%;
+    padding-left: 11%;
+}
+.facebook-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+}
+.next-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
